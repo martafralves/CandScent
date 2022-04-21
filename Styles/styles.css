@@ -1,0 +1,134 @@
+/*COLORS sourced from the palletes in website https://colorhunt.co*/
+
+/*NAVBAR STYLING*/
+.navbar{
+    background-color: #66806A;
+}
+#navlink{
+    color:#FFF1AF;
+}
+#candscent{
+    color: #FFC286;
+    font-weight: bold;
+    font-family: Georgia;
+}
+a:hover#candscent{
+    color:#FFF1AF;
+}
+
+/*CAROUSEL STYLING - to fit into the screen I was searching for a way to solve the problem of it not fitting the screen(was too big)
+I found the solution through this thread https://stackoverflow.com/questions/28589911/bootstrap-change-carousel-height*/
+.carousel .carousel-item {
+    max-height:550px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:550px;
+}
+
+/*ABOUT SECTION*/
+#about-section {
+    padding: 10px 20px;
+    background-color: #FDF6EC;
+}
+
+/*GALLERY Section*/
+.gallery{
+    background-color: #B4C6A6;
+    padding: 40px 0px;
+}
+.gallery img{
+    max-width: 100%;
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#gallery-popup .modal-img{
+    width: 100%;
+
+}
+
+.gallery-title{
+    text-align: center;
+}
+
+/*CONTACT FORM*/
+.head{
+    background-color: #FDF6EC;
+}
+#contact-body{
+    background-color: #B4C6A6;
+}
+.contact-icon{
+    font-size: 30px;
+    color: #FFF1AF;
+}
+#msgbtn{
+    background-color: #66806A;
+}
+
+.error-msg{
+    color: red;
+}
+/*SUBSCRIBE SECTION*/
+.section-subscribe{
+background-color: #B4C6A6;
+position: relative;
+padding: 10px 20px;
+color: #FFF1AF;
+}
+#subscribe-btn{
+    background-color: #66806A;
+}
+/*TO TOP BTN* Example taken from w3schools*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; 
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: #FFC286; 
+  color: #555; 
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+#myBtn:hover {
+  background-color: #FFF1AF;
+}
+/*FOOTER STYLING*/
+footer{
+    position:relative;
+    width: 100%;
+    background: #66806A;
+    padding: 10px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+footer .social {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+footer .social li{
+    list-style: none;
+}
+footer .social li a{
+    font-size: 2em;
+    color: #FFF1AF;
+    margin: 0 10px;
+    display: inline-block;
+}
