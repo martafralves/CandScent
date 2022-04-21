@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandScent</title>
+
+    <!--Styling-->
+	<link rel="stylesheet" href="Styles/styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="candscent" href="index.html">CandScent</a><!--Logo-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" id="navlink" aria-current="page" href="index.html">Home</a> <!--Home Section link-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="navlink" aria-current="page" href="#Products">Products</a><!--Gallery link-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navlink" href="#about-section">About</a><!--About us text-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navlink" href="#contact">Contact us</a><!--Link to contact form-->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Carousel (landing section) ALL IMAGES TAKEN FROM free image sourcing website unsplash.com under the free usage unsplash license-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/candles-landing.jpg" class="d-block w-100" alt="Candles on a table">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Organic Scented Candles</h5>
+              <p>Try our sustainable organic scented candles, made with natural products.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/diffuser-landing.jpg" class="d-block w-100" alt="aromatherapy diffuser">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Essential Oils</h5>
+              <p>Natural and guilt free essential oils to aromatise your home.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/sticks-landing.jpg" class="d-block w-100" alt="diffuser with scented sticks">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Organic Diffusers</h5>
+              <p>Always keep a nice and fresh aroma in your home with our natural diffusers.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--About the company-->
+      <div class="card text-center" id="about-section" style="width: 100%;">
+        <div class="card-body">
+          <h3 class="card-title">CandScent</h3>
+          <h6 class="card-subtitle mb-2 text-muted">Your home, our scent.</h6>
+          <br>
+          <p class="card-text">A family company born in 2008. Joana and José started making their own candles.</p>
+          <p class="card-text">Stablished for 15 years, we can now enter your home.</p>
+          <p class="card-text">Enjoy the scents that we have to offer.</p>
+          <p class="card-text">Explore our products in this website.</p>
+        </div>
+      </div>
+      <!--Gallery Section: ALL IMAGES TAKEN FROM free image sourcing website unsplash.com under the free usage unsplash license-->
+      <section class="gallery min-vh-100">
+        <div class="container-lg">
+          <div class="row pb-3 gallery-title">
+            <h3 id="Products">Product Gallery</h3>
+          </div>
+          <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="col">
+              <img src="images/gallery1.jpg" class="gallery-item" alt="Essential oils picture">
+            </div>
+            <div class="col">
+              <img src="images/gallery2.jpg" class="gallery-item" alt="Scented candles and plants">
+            </div>
+            <div class="col">
+              <img src="images/gallery3.jpg" class="gallery-item" alt="colorful candles">
+            </div>
+            <div class="col">
+              <img src="images/gallery4.jpg" class="gallery-item" alt="electronic diffuser">
+            </div>
+            <div class="col">
+              <img src="images/gallery5.jpg" class="gallery-item" alt="Essential oils lined up">
+            </div>
+            <div class="col">
+              <img src="images/gallery6.jpg" class="gallery-item" alt="window with diffuser and oils">
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/gallery1.jpg" class="modal-img" alt="Modal Image">
+      </div>
+    </div>
+  </div>
+</div>
+     
+      <!--Contact us Section (code was inspired in this video tutorial: https://www.youtube.com/watch?v=wIH86qpmsKo)-->
+      <section class="head pb-5 pt-5" id="contact">
+        <div class="container py-5">
+          <div class="card">
+            <div class="card-body" id="contact-body">
+              <h3 class="font-weight-light text-center py-3">Contact us</h3>
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="row pt-3">
+                    <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                      <span class="contact-icon"><ion-icon name="map"></ion-icon></span>
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                      <h5 class="font-weight-light">Find us at:</h5>
+                      <p>Rua Capitão Henrique Galvão 85, <br>
+                        2700-420 <br>
+                      Lisboa <br>
+                    Portugal</p>
+                    </div>
+                  </div>
+                  <div class="row pt-3">
+                    <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                      <span class="contact-icon"><ion-icon name="call"></ion-icon></span>
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                      <h5 class="font-weight-light">Call us at:</h5>
+                      <p>+351 61 617 167 9061 <br>
+                        Mon-Fri from 9am to 8pm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <form name="contactForm" onsubmit="validateForm()">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <label>Full Name:</label>
+                        <input type="text" class="form-control" placeholder="Full name" name="fName">
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label>Phone number</label>
+                        <input type="text" class="form-control" placeholder="Phone number" name="phonenr">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                    <label>Email</label>
+                    <input type="Email" placeholder="Email" class="form-control" name="cfEmail">
+                    </div>
+                    <div class="col-12">
+                    <label>Your Message</label>
+                    <textarea name="cMsg" class="form-control mb-3" placeholder="Message" cols="10" rows="5"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Validate form
+                        </label>
+                      </div>
+                    </div>
+                    <input type="submit" class="btn btn-secondary float-end" value="Send Message" id="msgbtn" required >
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Subscribe to newsletter-->
+      <section class="section-subscribe">
+        <div class="container text-center">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-12 mb-4">
+                    <h5 class="subscribe-heading">
+                        Stay up to date!
+                    </h5>
+                </div>
+                <div class="col-md-12">
+                    <form id="subform">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <input id="subname" type="text" class="form-control" placeholder="Your name" required>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <input id="subemail" type="email" class="form-control" placeholder="Your email" required>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <input type="submit" class="btn btn-secondary float-start" id="subscribe-btn" value="Subscribe" onclick="subscribe()">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--GO TO TOP BTN-->
+      <button onclick="toTop()" id="myBtn" title="Go to top">Top</button>
+      <!--Social Media Footer - icons sourced from unpkg.com icon Kit
+      I saw an example of how to code this footer through this video https://www.youtube.com/watch?v=UpkEANWC2Ms-->
+        <footer class="footer">
+          <ul class="social">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          </ul>
+        </footer>
+  <!--SCRIPTS-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="Scripts/script.js"></script>
+</body>
+</html>
